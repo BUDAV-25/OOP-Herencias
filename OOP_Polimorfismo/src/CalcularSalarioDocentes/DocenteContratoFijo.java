@@ -11,6 +11,7 @@ public class DocenteContratoFijo extends Empleados_Docente {
 		this.Meta = meta;
 	}
 	
+	@Override
 	public double calcularSalario(){
 		if(Meta == true) {
 			Pago = Bonificacion + (SalarioBaseSemanal*4);
