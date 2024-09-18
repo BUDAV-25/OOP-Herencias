@@ -8,10 +8,10 @@ public class ProbandoDocentes {
 		System.out.println("Informacion del empleado por hora: "); DocenteHoras.InformacionEmpleado();
 		
 		DocenteContratoFijo DocenteFijo = new DocenteContratoFijo("Esteubin","Medrano","2007013020250101",15000, true);
-		System.out.println("Informacion del empleado por hora: ");DocenteFijo.InformacionEmpleado();
+		System.out.println("Informacion del empleado fijo: ");DocenteFijo.InformacionEmpleado();
 		
 		EmpleadoAdministrativo EmpleadoAdministrativo = new EmpleadoAdministrativo("Randy","Acevedo","2000121620231414",15000, false);
-		System.out.println("Informacion del empleado por hora: "); EmpleadoAdministrativo.InformacionEmpleado();
+		System.out.println("Informacion del empleado administrativo: "); EmpleadoAdministrativo.InformacionEmpleado();
 	}
 
 }

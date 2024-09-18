@@ -15,7 +15,7 @@ public class DocenteContratoFijo extends Empleados_Docente {
 		if(Meta == true) {
 			Pago = Bonificacion + (SalarioBaseSemanal*4);
 		}
-		if(Meta == false) {
+		else{
 			Pago = (Bonificacion/2) + (SalarioBaseSemanal*4);
 		}
 		
